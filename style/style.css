@@ -1,0 +1,607 @@
+
+
+/* THE SECOND MEDIA SCREEN OF 481 AND ABOVE*/
+@media (min-width: 480px) {
+	body{
+		
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+		background-color:#f4f9f9;
+		padding: 0;
+	}
+
+	
+/* FONT AWESOME IMAGE */
+	.nav-icon{
+		font-size:2.9rem;	
+	}
+	
+	.box2 input{
+		display:none;
+	}
+	
+	
+.grid-container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 10em;
+background-color: #2196F3;
+padding: 0.9rem 0;
+grid-gap: 1px;
+background-color:#85603f; 
+color: white;
+margin: 0 auto;
+
+	}
+	
+.box2 img{
+	width: 2.8rem;
+	border-radius: 90%;
+	margin: 0 auto;
+}
+
+/*	BODY OF THE PAGE STYLE */
+
+.grid-body{
+	display: grid;
+	grid-template-columns: repeat(1, auto);
+	margin:0.9rem 2rem;
+	background-color: #FDFDFD;
+}
+
+
+.grid-body p{
+	font-size: 1.5rem;
+	padding: 0.8rem 1rem;
+}
+
+
+.message{
+	margin-bottom: 3rem;
+}
+
+div, a, p{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.grid-buttons{
+	display: grid;
+	grid-template-columns: repeat(1, auto);
+	margin: 0 auto;
+	width: 100%;
+	grid-gap: 1rem;
+	padding-bottom:6rem;
+}
+
+/* .grid-buttons{
+
+} */
+
+.green-button{
+	width: 50%;
+	padding: 0.8rem 0.8rem;
+	border-radius: 0.6rem;
+	color: #FDFDFD;
+	background-color: #28527A;
+	border: 1px solid lightgrey;
+	margin-bottom: 2rem;
+}
+
+.green-button a{
+	text-decoration: none;
+	word-spacing: 0.1rem;
+	font-size: 1.3rem;
+	color: #FDFDFD;
+	border: none;
+	font-weight:400;
+}
+	
+
+.white-button{
+	width: 50%;
+	padding: 0.8rem 0.8rem;
+	border-radius: 0.6rem;
+	color: black;
+	border: 1px solid lightgrey;
+
+}
+
+.white-button a{
+	text-decoration: none;
+	word-spacing: 0.1rem;
+	font-size: 1.3rem;
+	color: black;
+}
+
+
+/*	FORM SECTION O THE PAGE */
+div .form{
+	box-sizing: border-box;
+	display: flex;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	margin:1rem 0.2REM;
+	width: 99.9%;
+	background-color:#F6F8FA;
+	padding: 0.8rem;
+}
+
+
+.form{
+	border: 1px solid lightgrey;
+	padding: 2rem;
+}
+
+/* FORM COBTAINER STYLING */
+.form-container{
+	background-color: #FFFFFF;
+	width: 100%;
+	padding: 0.8rem;
+	margin: 0.8rem 0; 
+	border-radius: 2%;
+}
+	
+
+.list-ul li{
+	text-align: left;
+	list-style: none;
+	margin: 0.5rem;
+
+}
+
+.list-ul a{
+	text-decoration: none;
+	font-size: 1.2rem;
+	word-spacing: 0.3rem;
+	padding: 0.3rem;
+	font-weight: 400;
+	color:#3566D7;
+	line-height: 1rem;
+	font-weight: bold;
+}
+
+
+.show_more p{
+	padding-bottom: 1rem;
+	text-align: left;
+	padding: 0.5rem;
+	font-size: 1.0rem;
+}
+	
+/*	DO THE HOVER OF SHOW MORE*/
+	
+	
+	
+	
+/*	NESTED GRID SECTION OF THE PAGE */
+	.nested-grid{
+		box-sizing: border-box;
+		display: grid;
+		grid-template-columns: 0.3fr 2fr;
+		margin:0;
+		padding: 0.2rem;
+		font-size: 1rem;
+		background-color: #F6F8FA;
+		
+		
+	}
+	
+	 .nested-grid img{
+		width: 4rem;
+		display:flex;
+		border-radius: 80rem;
+		margin: 0;
+		padding: 0;
+		padding-top: 0;
+		
+	}
+	
+	
+	.inline-block{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		border-bottom: 2px solid #F0F3F7;
+		margin: 1rem;
+	}
+	
+	.inline-block div{
+		padding: 1rem;
+		margin:0;
+		font-size: 1.3rem;
+		box-sizing: border-box;
+	
+		
+	}
+	
+	
+	.inline-block .star{
+		width: 50%;
+		padding: 0.5rem 0.8rem;
+		border-radius: 0.6rem;
+		color: black;
+		border: 1px solid lightgrey;
+		margin: 0;
+		
+	}
+
+	.inline-block .star:hover{
+		background-color: 28527A;
+	}
+	
+	.footer{
+		display: grid;
+		grid-template-columns: repeat(1, fr);
+		grid-gap: 0.5rem;
+		
+	}
+	
+	.footer-first-grid{
+		display: grid;
+		grid-template-columns: 1fr 12fr;
+		grid-gap: 0.6rem;
+		text-align: start;
+		margin: 0 1.2rem;
+		border-bottom: 3px solid #F0F3F7
+		
+	}
+	
+	
+	.footer-first-grid div{
+		margin: 0.5rem;
+		padding: 0.1rem;
+		font-size: 1.0rem
+		text-align: center;
+		word-spacing: 0.2rem;	
+	}
+	
+	
+
+	
+	.bulb{
+		margin-left: 3rem;
+		font-size: 1.2rem;
+	}
+	
+	.bulb:hover{
+		color:darkgoldenrod;
+	}
+	
+	
+	.footer-inner-grid{
+		display:grid;
+		grid-template-columns:  repeat(3, 1fr);
+		width: 100%;
+		margin: 1rem 5rem;
+	
+	}
+	
+	.footer-inner-grid li, .footer-inner-grid a{
+		list-style: none;
+		text-decoration: none; 
+		padding:0.4rem;
+	}
+	
+	.footer-inner-grid  div{
+		margin: 0.5rem 1rem 1rem 1rem;
+		text-align: start;
+		width: 100%;
+	}
+	
+/*	HOVER EFFECT FOR DIVs WITH CHILD A-TAG*/
+	div a:hover{
+		text-decoration: none;
+		color: #78C4D4;
+	}
+	
+	.fa-lock{
+		color: darkgoldenrod;
+		margin-right: 1rem;
+	}
+
+	
+}
+
+
+/* THE LESSER SCREEN CSS CODES */
+@media (max-width:480px){
+  
+	body{
+		
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+		background-color:#F6F8FA;
+		padding: 0;
+	}
+
+	
+/* FONT AWESOME IMAGE */
+	.nav-icon{
+		font-size:2.9rem;	
+	}
+	
+	
+.grid-container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 10em;
+background-color: ;
+padding: 0.9rem 0;
+grid-gap: 1px;
+background-color:#24292E; 
+color: white;
+margin: 0 auto;
+
+	}
+	
+.box2 img{
+	width: 2.8rem;
+	border-radius: 90%;
+	margin: 0 auto;
+}
+
+/*	BODY OF THE PAGE STYLE */
+
+.grid-body{
+	display: grid;
+	grid-template-columns: repeat(1, auto);
+	margin:0.9rem 2rem;
+	background-color: #F4FAFE;
+}
+
+
+.grid-body p{
+	font-size: 1.5rem;
+	padding: 0.8rem 1rem;
+}
+
+
+.message{
+	margin-bottom: 3rem;
+}
+
+div, a, p{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.grid-buttons{
+	display: grid;
+	grid-template-columns: repeat(1, auto);
+	margin: 1rem auto;
+	width: 100%;
+	grid-gap: 1rem;
+	padding-bottom:6rem;
+}
+
+/* .grid-buttons{
+
+} */
+
+.green-button{
+	width: 50%;
+	padding: 0.8rem 0.8rem;
+	border-radius: 0.6rem;
+	color: #FDFDFD;
+	background-color: #28a745;
+	border: 1px solid lightgrey;
+	margin-bottom: 2rem;
+}
+	
+.green-button a{
+	text-decoration: none;
+	word-spacing: 0.1rem;
+	font-size: 1.3rem;
+	color: #FDFDFD;
+	border: none;
+	font-weight:400;
+}
+
+.white-button{
+	width: 50%;
+	padding: 0.8rem 0.8rem;
+	border-radius: 0.6rem;
+	color: black;
+	border: 1px solid lightgrey;
+
+}
+
+.white-button a{
+	text-decoration: none;
+	word-spacing: 0.1rem;
+	font-size: 1.3rem;
+	color: black;
+}
+
+
+/*	FORM SECTION O THE PAGE */
+div .form{
+	box-sizing: border-box;
+	display: flex;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	margin:1rem 0.2REM;
+	width: 99.9%;
+	background-color:#F6F8FA;
+	padding: 0.8rem;
+}
+
+
+.form{
+	border: 1px solid lightgrey;
+	padding: 2rem;
+}
+
+/* FORM COBTAINER STYLING */
+.form-container{
+	background-color: #FFFFFF;
+	width: 100%;
+	padding: 0.8rem;
+	margin: 0.8rem 0; 
+	border-radius: 2%;
+}
+	
+
+.list-ul li{
+	text-align: left;
+	list-style: none;
+	margin: 0.5rem;
+
+}
+
+.list-ul a{
+	text-decoration: none;
+	font-size: 1.2rem;
+	word-spacing: 0.3rem;
+	padding: 0.3rem;
+	font-weight: 400;
+	color:#3566D7;
+	line-height: 1rem;
+	font-weight: bold;
+}
+
+
+.show_more p{
+	padding-bottom: 1rem;
+	text-align: left;
+	padding: 0.5rem;
+	font-size: 1.0rem;
+}
+	
+/*	DO THE HOVER OF SHOW MORE*/
+	
+
+	
+	
+/*	NESTED GRID SECTION OF THE PAGE */
+	.nested-grid{
+		box-sizing: border-box;
+		display: grid;
+		grid-template-columns: 0.3fr 2fr;
+		margin:0;
+		padding: 0.2rem;
+		font-size: 1rem;
+		background-color: #F6F8FA;
+		
+		
+	}
+	
+	 .nested-grid img{
+		width: 4rem;
+		display:flex;
+		border-radius: 80rem;
+		margin: 0;
+		padding: 0;
+		padding-top: 0;
+		
+	}
+	
+	
+	.inline-block{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		border-bottom: 2px solid #F0F3F7;
+		margin: 1rem;
+	}
+	
+	.inline-block div{
+		padding: 1rem;
+		margin:0;
+		font-size: 1.3rem;
+		box-sizing: border-box;
+	
+		
+	}
+	
+	
+	.inline-block .star{
+		width: 50%;
+		padding: 0.5rem 0.8rem;
+		border-radius: 0.6rem;
+		color: black;
+		border: 1px solid lightgrey;
+		margin: 0;
+		
+	}
+
+
+	
+	.footer{
+		display: grid;
+		grid-template-columns: repeat(1, fr);
+		grid-gap: 0.5rem;
+		
+	}
+	
+	.footer-first-grid{
+		display: grid;
+		grid-template-columns: 1fr 12fr;
+		grid-gap: 0.5rem;
+		text-align: start;
+		margin: 0 1.5rem;
+		border-bottom: 3px solid #F0F3F7
+	}
+	
+	
+	.footer-first-grid div{
+		margin: 0.5rem;
+		padding: 0.1rem;
+		font-size: 1.0rem
+		text-align: center;
+		word-spacing: 0.2rem;
+	}
+	
+	
+
+	
+	.bulb{
+		margin-right: 1rem;
+		font-size: 1.2rem;
+	}
+	
+	
+	.footer-inner-grid{
+		display:grid;
+		grid-template-columns:  repeat(3, 1fr);
+		width: 100%;
+		margin-left: 1rem;
+		margin-right: 2rem;
+		
+		
+	}
+	
+	.footer-inner-grid li, .footer-inner-grid a{
+		list-style: none;
+		text-decoration: none; 
+		padding:0.4rem;
+	}
+	
+	.footer-inner-grid  div{
+		margin: 0.5rem 1rem 1rem 1rem;
+		text-align: start;
+		width: 100%;
+	}
+	
+	div a:hover{
+		text-decoration: underline;
+		color: #78C4D4;
+	}
+	
+	.fa-lock{
+		color: darkgoldenrod;
+		margin-right: 1rem;
+	}
+	
+}
+
+	
+
+	
+
+
+
+
+
+
